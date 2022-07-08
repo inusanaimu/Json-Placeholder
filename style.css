@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+body {
+  background-color: rgb(248, 189, 117);
+  padding: 0.8em;
+}
+
+.content {
+  margin: 0.5em;
+  padding: 1.2em;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.border {
+  border-bottom: 0.1px solid rgb(240, 240, 240);
+}
+.topic {
+  padding: 0.5em;
+
+  margin: 0.5em;
+}
+.topicTopic {
+  display: inline;
+}
+.topicBody {
+  font-size: 0.8em;
+  font-weight: bold;
+  display: inline;
+}
+
+.btn {
+  color: hsl(244, 80%, 46%);
+  font-size: 1.25rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-color: transparent;
+  border-radius: 4em;
+  margin: 0.4em 0.5em;
+  padding: 0.4em 0.5em;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: hsl(205, 78%, 60%);
+  color: hsl(205, 86%, 17%);
+}
