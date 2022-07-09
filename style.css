@@ -57,6 +57,10 @@ footer {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
 }
+.content:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
 .contentBody {
   display: none;
   transition: all 0.3s linear;

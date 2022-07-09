@@ -26,11 +26,18 @@ async function getData() {
 //   .then((data) => {})
 
 function next() {
+  if (positon >= 500) {
+    positon = 500
+    return alert('This is the last page')
+  }
   positon += 7
   s(comments)
   // console.log(comments)
 }
 function prev() {
+  if (positon <= 7) {
+    return alert('This is the first page')
+  }
   positon -= 7
   counter -= 14
   s(comments)
