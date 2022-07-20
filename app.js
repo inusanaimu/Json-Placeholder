@@ -31,7 +31,7 @@ function next() {
     return alert('This is the last page')
   }
   positon += 7
-  s(comments)
+  displayer(comments)
   // console.log(comments)
 }
 function prev() {
@@ -40,10 +40,10 @@ function prev() {
   }
   positon -= 7
   counter -= 14
-  s(comments)
+  displayer(comments)
 }
 
-function s(arr) {
+function displayer(arr) {
   rootDiv.innerHTML = ''
 
   for (; counter < positon; counter++) {
